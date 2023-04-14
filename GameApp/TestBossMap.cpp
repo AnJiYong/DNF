@@ -8,6 +8,8 @@
 TestBossMap::TestBossMap()
 	: ImageRenderer_()
 	, Type_(BossType::None)
+	, Map1Renderer_(nullptr)
+	, Map2Renderer_(nullptr)
 {
 }
 

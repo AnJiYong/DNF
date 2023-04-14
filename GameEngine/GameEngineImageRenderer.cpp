@@ -306,7 +306,7 @@ void GameEngineImageRenderer::CreateAnimationFolder(const std::string& _Name, co
 	
 	if (nullptr == FolderTexture)
 	{
-		GameEngineDebug::MsgBoxError("존재하지 않는 폴더 텍스처를 세팅하려고 했습니다..");
+		// GameEngineDebug::MsgBoxError("존재하지 않는 폴더 텍스처를 세팅하려고 했습니다..");
 	}
 
 	Animation2D* NewAnimation = new Animation2D();
@@ -339,7 +339,7 @@ void GameEngineImageRenderer::CreateAnimationFolder(const std::string& _Name, co
 
 	if (nullptr == FolderTexture)
 	{
-		GameEngineDebug::MsgBoxError("존재하지 않는 폴더 텍스처를 세팅하려고 했습니다..");
+		// GameEngineDebug::MsgBoxError("존재하지 않는 폴더 텍스처를 세팅하려고 했습니다..");
 	}
 
 	Animation2D* NewAnimation = new Animation2D();
