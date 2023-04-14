@@ -35,8 +35,6 @@ void AvatarUI::Start()
 	Avatar_Skin->CreateAnimationFolder("Avatar_Skin02", "Avatar_Skin02", FLT_MAX, 176, 176);
 	Avatar_Skin->SetChangeAnimation("default");
 
-#ifdef _DEBUG
-#else
 	Avatar_Shoes();
 	Avatar_Pants();
 	Avatar_Coat();
@@ -75,8 +73,6 @@ void AvatarUI::Start()
 	Weapon_Back2->CreateAnimationFolder("Weapon02", "beamswd59b2", FLT_MAX, 176, 176);
 	Weapon_Back2->SetChangeAnimation("default");
 	Weapon_Back2->SetPercent(0.7f);
-#endif // _DEBUG
-
 }
 
 void AvatarUI::Update(float _DeltaTime)

@@ -204,9 +204,6 @@ void TitleLevel::ResourcesLoad()
 
 void TitleLevel::LevelLoad()
 {
-#ifdef _DEBUG
-#else
 	GameEngineCore::LevelCreate<TownLevel>("01.Town");
 	GameEngineCore::LevelCreate<DungeonLevel>("02.Dungeon");
-#endif // _DEBUG
 }

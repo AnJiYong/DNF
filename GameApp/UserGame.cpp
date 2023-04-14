@@ -30,15 +30,8 @@ void UserGame::Initialize()
 {
 	GameManager::GetInst().Init();
 	
-#ifdef _DEBUG
-	LevelCreate<TownLevel>("01.Town");
-	LevelCreate<DungeonLevel>("02.Dungeon");
-	//LevelCreate<TestLevel>("99.Test");
-	LevelChange("02.Dungeon");
-#else
 	LevelCreate<TitleLevel>("00.Title");
 	LevelChange("00.Title");
-#endif // _DEBUG
 
 	return;
 }

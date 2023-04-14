@@ -38,8 +38,6 @@ void Avatar::Start()
 	Avatar_Skin->SetChangeAnimation("default");
 	List_.push_back(Avatar_Skin);
 
-#ifdef _DEBUG
-#else
 	Avatar_Shoes();
 	Avatar_Pants();
 	Avatar_Coat();
@@ -67,8 +65,6 @@ void Avatar::Start()
 	Avatar_AuraFront->SetRenderingPipeLine("TextureTrans");
 	Avatar_AuraFront->CreateAnimationFolder("Avatar_Aura00", "Avatar_Aura00Front", 0.1f, 0, 26);
 	Avatar_AuraFront->SetChangeAnimation("default");
-#endif // _DEBUG
-
 }
 
 void Avatar::Update(float _DeltaTime)
