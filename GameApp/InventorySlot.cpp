@@ -295,66 +295,37 @@ void InventorySlot::UseItem()
 
 	if (ItemType::None == SlotType_)
 	{
+		std::unordered_map<ItemType, InventorySlot*> map;
+
 		if (InvenType::Inventory == InvenType_)
 		{
-			std::unordered_map<ItemType, InventorySlot*> map = Inven->GetEquipEnumList();
-
-			InventorySlot* EquipSlot = map[SlotItem_->GetType()];
-
-			ItemIconRenderer_->Off();
-
-			if ("None" != SlotItem_->GetGrade())
-			{
-				GradeUIRenderer->Off();
-			}
-
-			if (true == EquipSlot->GetEmpty())
-			{
-				EquipSlot->SetItem(SlotItem_->GetName());
-				Empty_ = true;
-				SlotItem_ = nullptr;
-			}
-			else
-			{
-				std::string Name = EquipSlot->GetSlotItem()->GetName();
-				EquipSlot->SetItem(SlotItem_->GetName());
-				SetItem(Name);
-			}
+			map = Inven->GetEquipEnumList();
 		}
 		else if (InvenType::Avatar == InvenType_)
 		{
-			std::vector<InventorySlot*> EquipList;
-			EquipList = Avatar->GetEquipList();
+			map = Avatar->GetEquipEnumList();
+		}
 
-			std::vector<InventorySlot*>::iterator Iter = EquipList.begin();
+		InventorySlot* EquipSlot = map[SlotItem_->GetType()];
 
-			for (; Iter != EquipList.end(); Iter++)
-			{
-				if (SlotItem_->GetType() == (*Iter)->GetSlotType())
-				{
-					InventorySlot* EquipSlot = (*Iter);
+		ItemIconRenderer_->Off();
 
-					ItemIconRenderer_->Off();
+		if ("None" != SlotItem_->GetGrade())
+		{
+			GradeUIRenderer->Off();
+		}
 
-					if ("None" != SlotItem_->GetGrade())
-					{
-						GradeUIRenderer->Off();
-					}
-
-					if (true == EquipSlot->GetEmpty())
-					{
-						EquipSlot->SetItem(SlotItem_->GetName());
-						Empty_ = true;
-						SlotItem_ = nullptr;
-					}
-					else
-					{
-						std::string Name = EquipSlot->GetSlotItem()->GetName();
-						EquipSlot->SetItem(SlotItem_->GetName());
-						SetItem(Name);
-					}
-				}
-			}
+		if (true == EquipSlot->GetEmpty())
+		{
+			EquipSlot->SetItem(SlotItem_->GetName());
+			Empty_ = true;
+			SlotItem_ = nullptr;
+		}
+		else
+		{
+			std::string Name = EquipSlot->GetSlotItem()->GetName();
+			EquipSlot->SetItem(SlotItem_->GetName());
+			SetItem(Name);
 		}
 	}
 	else

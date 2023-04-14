@@ -1,5 +1,6 @@
 #pragma once
 #include "GameEngine/GameEngineActor.h"
+#include "GlobalEnum.h"
 
 class GameEngineUIRenderer;
 class GameEngineCollision;
@@ -24,6 +25,7 @@ protected:
 	InventoryButton* MiddleButton_[2];
 	std::vector<InventorySlot*> SlotList_;
 	std::vector<InventorySlot*> EquipList_;
+	std::unordered_map<ItemType, InventorySlot*> EquipEnumList_;
 	float4 MoveVector_;
 	AvatarUI* Avatar_;
 
@@ -41,6 +43,11 @@ public:
 	std::vector<InventorySlot*> GetEquipList()
 	{
 		return EquipList_;
+	}
+
+	std::unordered_map<ItemType, InventorySlot*> GetEquipEnumList()
+	{
+		return EquipEnumList_;
 	}
 
 	void FirstInit();

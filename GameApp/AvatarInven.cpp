@@ -178,6 +178,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 15.f, -81.f - 15.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Weapon);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Weapon, Slot));
 		}
 
 		{
@@ -186,6 +187,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 48.f, -81.f - 15.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Hair);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Hair, Slot));
 		}
 
 		{
@@ -194,6 +196,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 81.f, -81.f - 15.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Cap);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Cap, Slot));
 		}
 
 		{
@@ -202,6 +205,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 114.f, -81.f - 15.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Face);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Face, Slot));
 		}
 
 		{
@@ -210,6 +214,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 15.f, -81.f - 48.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Aura);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Aura, Slot));
 		}
 
 		{
@@ -218,6 +223,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 48.f, -81.f - 48.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Neck);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Neck, Slot));
 		}
 
 		{
@@ -226,6 +232,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 81.f, -81.f - 48.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Coat);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Coat, Slot));
 		}
 
 		{
@@ -234,6 +241,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 114.f, -81.f - 48.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Skin);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Skin, Slot));
 		}
 
 		{
@@ -242,6 +250,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 48.f, -81.f - 81.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Belt);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Belt, Slot));
 		}
 
 		{
@@ -250,6 +259,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 81.f, -81.f - 81.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Pants);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Pants, Slot));
 		}
 
 		{
@@ -258,6 +268,7 @@ void AvatarInven::BackGround()
 			Slot->GetTransform()->SetLocalPosition(float4(-11.f + 114.f, -81.f - 81.f, -1.f));
 			Slot->SetSlotType(ItemType::Avatar_Shoes);
 			EquipList_.push_back(Slot);
+			EquipEnumList_.insert(std::make_pair(ItemType::Avatar_Shoes, Slot));
 		}
 	}
 
