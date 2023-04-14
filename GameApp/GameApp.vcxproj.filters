@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Appmain.cpp" />
+    <ClCompile Include="PreCompile.cpp">
+      <Filter>Precom</Filter>
+    </ClCompile>
+    <ClCompile Include="UserGame.cpp">
+      <Filter>UserCore</Filter>
+    </ClCompile>
+    <ClCompile Include="UserGame_Resources.cpp">
+      <Filter>UserCore</Filter>
+    </ClCompile>
+    <ClCompile Include="SeriaKirmin.cpp">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>01. Actor\00. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="LiaRichter.cpp">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="AirshipScreen.cpp">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>00. Global</Filter>
+    </ClCompile>
+    <ClCompile Include="AirshipScreenUI.cpp">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Pillasia.cpp">
+      <Filter>01. Actor\01. Town\00. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SeriaRoom.cpp">
+      <Filter>01. Actor\01. Town\00. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLevel.cpp">
+      <Filter>02. Level\00. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="TownLevel.cpp">
+      <Filter>02. Level\01. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonLevel.cpp">
+      <Filter>02. Level\02. Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMap.cpp">
+      <Filter>01. Actor\02. Dungeon\00. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="NomalMonster.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>00. Global\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>00. Global\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAirMonster.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Potal.cpp">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>01. Actor\02. Dungeon\99. Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBase.cpp">
+      <Filter>00. Global\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBase.cpp">
+      <Filter>00. Global\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBossMap.cpp">
+      <Filter>01. Actor\02. Dungeon\00. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Pase3Rat.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClCompile>
+    <ClCompile Include="PeterFire.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClCompile>
+    <ClCompile Include="PeterPase2.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClCompile>
+    <ClCompile Include="PeterThePiper.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClCompile>
+    <ClCompile Include="Pase2Rythem.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClCompile>
+    <ClCompile Include="TopUI.cpp">
+      <Filter>00. Global\02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillSlot.cpp">
+      <Filter>00. Global\02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryButton.cpp">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="InventorySlot.cpp">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>00. Global\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarInven.cpp">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>00. Global\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLevel.cpp">
+      <Filter>02. Level\99. Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>00. Global\04. etc</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarUI.cpp">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageFont.cpp">
+      <Filter>00. Global\02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>00. Global\02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterHpBar.cpp">
+      <Filter>00. Global\02. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSkill.cpp">
+      <Filter>00. Global\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcDialog.cpp">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcEvent.cpp">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="PeterTrap.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClCompile>
+    <ClCompile Include="IsangomaNazaloh.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>01. Actor\02. Dungeon\99. Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillInfo.cpp">
+      <Filter>00. Global\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="NazalohFire.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClCompile>
+    <ClCompile Include="NazalohSummon.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClCompile>
+    <ClCompile Include="NazalohBoom.cpp">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClCompile>
+    <ClCompile Include="Warning.cpp">
+      <Filter>01. Actor\02. Dungeon\99. Etc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precom">
+      <UniqueIdentifier>{0d0b75c7-5726-42b1-aa92-879451e131c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserCore">
+      <UniqueIdentifier>{ae1c99fc-5ae2-4958-9205-8018fcb509b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor">
+      <UniqueIdentifier>{5b1798ae-0845-4fbe-8a16-76e0e38dd1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\00. Title">
+      <UniqueIdentifier>{6b2ebfe6-c326-4c14-bb28-206e7ab5665b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\01. Town">
+      <UniqueIdentifier>{44e9188f-6fe2-41fa-bd1d-9ad484c90de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\01. Town\01. NPC">
+      <UniqueIdentifier>{e11bc8ed-44f5-4971-a537-166f71b5b211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\01. Town\00. Map">
+      <UniqueIdentifier>{06cfa4de-88c4-40e4-8402-b09e62ae6896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\02. Dungeon">
+      <UniqueIdentifier>{65d18666-96df-4b26-9af3-f2477d6b0446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\02. Dungeon\00. Map">
+      <UniqueIdentifier>{dced9f2d-7b0a-4054-b7e6-ce2fdd6168a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Level">
+      <UniqueIdentifier>{e6998438-49d5-445a-83ae-2e78e52a45df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Level\02. Dungeon">
+      <UniqueIdentifier>{bc74aea6-a428-45f5-b835-d924b04c79b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Level\00. Title">
+      <UniqueIdentifier>{5eb72699-aa6e-46f7-b13d-4b0fbcaa15f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Level\01. Town">
+      <UniqueIdentifier>{4a0ec696-b175-44e6-a617-aef15ec445e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Global">
+      <UniqueIdentifier>{64e44c8a-a1df-40e1-89c8-05ec09b641f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Global\00. Player">
+      <UniqueIdentifier>{cf3c1dcc-56f5-46cd-bcf6-499d52d7f8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Global\01. Base">
+      <UniqueIdentifier>{f073806a-951f-4b00-9ac1-40adfc3c4ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Global\02. UI">
+      <UniqueIdentifier>{fa0c34cd-49a5-4992-b046-230a8cd4e7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Global\03. Inventory">
+      <UniqueIdentifier>{0d297a2d-a69f-4e3f-ac57-cf86ae3d95d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Level\99. Test">
+      <UniqueIdentifier>{5b1428da-a657-4380-b81f-544b67397f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Global\04. etc">
+      <UniqueIdentifier>{85467a61-0548-4e0b-9043-8053dfec0e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\02. Dungeon\99. Etc">
+      <UniqueIdentifier>{f976b51c-a4e4-499d-8cad-92dbb71a7a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\02. Dungeon\01. Monster">
+      <UniqueIdentifier>{2b967928-caee-4fa5-a483-b2e0d4c2d1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\02. Dungeon\01. Monster\00. Boss">
+      <UniqueIdentifier>{093f412b-594c-4173-829d-c042e801dda1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper">
+      <UniqueIdentifier>{6434fe31-41d1-4601-b5df-983a0d8ca5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh">
+      <UniqueIdentifier>{265d8398-5435-4a9b-bc02-8500258c34b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PreCompile.h">
+      <Filter>Precom</Filter>
+    </ClInclude>
+    <ClInclude Include="UserGame.h">
+      <Filter>UserCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SeriaKirmin.h">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>01. Actor\00. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="LiaRichter.h">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="AirshipScreen.h">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>00. Global</Filter>
+    </ClInclude>
+    <ClInclude Include="AirshipScreenUI.h">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Pillasia.h">
+      <Filter>01. Actor\01. Town\00. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SeriaRoom.h">
+      <Filter>01. Actor\01. Town\00. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLevel.h">
+      <Filter>02. Level\00. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="TownLevel.h">
+      <Filter>02. Level\01. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonLevel.h">
+      <Filter>02. Level\02. Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMap.h">
+      <Filter>01. Actor\02. Dungeon\00. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="NomalMonster.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>00. Global\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>00. Global\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAirMonster.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Potal.h">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>01. Actor\02. Dungeon\99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBase.h">
+      <Filter>00. Global\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBase.h">
+      <Filter>00. Global\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBossMap.h">
+      <Filter>01. Actor\02. Dungeon\00. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PeterThePiper.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClInclude>
+    <ClInclude Include="Pase3Rat.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClInclude>
+    <ClInclude Include="PeterFire.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClInclude>
+    <ClInclude Include="PeterPase2.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClInclude>
+    <ClInclude Include="Pase2Rythem.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClInclude>
+    <ClInclude Include="TopUI.h">
+      <Filter>00. Global\02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillSlot.h">
+      <Filter>00. Global\02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryButton.h">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="InventorySlot.h">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>00. Global\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarInven.h">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>00. Global\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLevel.h">
+      <Filter>02. Level\99. Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>00. Global\04. etc</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarUI.h">
+      <Filter>00. Global\03. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalEnum.h">
+      <Filter>00. Global\04. etc</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageFont.h">
+      <Filter>00. Global\02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>00. Global\02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterHpBar.h">
+      <Filter>00. Global\02. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSkill.h">
+      <Filter>00. Global\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcDialog.h">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcEvent.h">
+      <Filter>01. Actor\01. Town\01. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="PeterTrap.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\PeterThePiper</Filter>
+    </ClInclude>
+    <ClInclude Include="IsangomaNazaloh.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>01. Actor\02. Dungeon\99. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillInfo.h">
+      <Filter>00. Global\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="NazalohFire.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClInclude>
+    <ClInclude Include="NazalohSummon.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClInclude>
+    <ClInclude Include="NazalohBoom.h">
+      <Filter>01. Actor\02. Dungeon\01. Monster\00. Boss\IsangomaNazaloh</Filter>
+    </ClInclude>
+    <ClInclude Include="Warning.h">
+      <Filter>01. Actor\02. Dungeon\99. Etc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
